@@ -2,12 +2,177 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>cricpro</title>
 </head>
+<style>
+    body{
+        background:url(/assets/background-image1.png)no-repeat center fixed;
+        background-size: cover;
+    }
+ 
+ h1,p{
+     margin: 0px;
+     margin-left: 50px;
+ }
+   
+table{
+    border-collapse: collapse;
+    margin: 50px;
+    text-align: left;
+    background-color: white;
+    width: 850px;
+    padding-bottom: 5px;
+    height: 300;
+    font-family: system-ui;
+
+}
+ thead th{
+    background-color: orangered;
+    color:white;
+    border-bottom:1px solid lightgrey;
+    height:30px;
+    padding-left: 10px;
+    padding-right: 10px;  
+ }
+ 
+tbody td{
+   border-bottom: 1px solid lightgrey;
+   min-width: 30px;
+    background-color: white;
+    padding:10px;
+    height: 20px;
+    padding-right: 0px;  
+}
+tfoot td{
+    padding: 8px;
+    background-color: white;
+    height: 20px;
+    
+}
+
+  #container{
+     color:blue;
+
+ }
+ tfoot tr {
+     border-bottom: 1px solid lightgrey;
+ }
+ #row{
+     color: grey;
+    
+     
+ }
+ #column{
+     font-weight: bold;
+ }
+ #action{
+     font-weight: bolder;
+     padding-right: 0px;
+
+ }
+ #container,#row{
+    min-width: 180px;
+ }
+    
+</style>
+
 <body>
-    <!-- Type your code here -->
-    <footer class="footer">Made with <img src="/assets/prograd-heart.svg"> by ProGrad</footer>
+    
+    <div align="right">
+        <img src="/assets/Logo.JPG">
+        </div>
+        <h1>ICC WORLD CUP 2011</h1>
+        <p>India Vs Srilanka scoreboard</p>
+    <table>
+        <thead>
+             <tr>
+                    <th> India Innings</th>
+                   <th colspan="6" align="right">277-4(48.2)</th>
+                   
+                   
+            </tr>
+        </thead>
+    </tbody>
+            <tr>
+                <td id="column">Batsman</td>
+                <td colspan="none"></td>
+                <td id="action">R</td>
+                <td id="action">B</td>
+                <td id="action">4s</td>
+                <td id="action">6s</td>
+                <td id="action">SR</td>
+
+            </tr>
+            <tr>
+                <td id="container">Virender sehwag</td>
+                <td id="row">lbw b L Malinga</td>
+                <td id="spacing">0</td>
+                <td id="spacing ">2</td>
+                <td id="spacing">0</td>
+                <td id="spacing">0</td>
+                <td id="spacing">0.00</td>
+            </tr>
+            <tr>
+                <td id="container">Sachin Tendulkar</td>
+                <td id="row">c K Sangakkara b L Malinga</td>
+                <td>18</td>
+                <td>14</td>
+                <td>2</td>
+                <td>0</td>
+                <td>128.57</td>
+            </tr>
+            <tr>
+                <td id="container">Gautham Gambhir</td>
+                <td id="row">b T Perera</td>
+                <td>97</td>
+                <td>122</td>
+                <td>9</td>
+                <td>0</td>
+                <td>79.51</td>
+            </tr>
+            <tr>
+                <td id="container">Virat kohli</td>
+                <td id="row">c & b T Dilshan</td>
+                <td>35</td>
+                <td>49</td>
+                <td>4</td>
+                <td>0</td>
+                <td>71.43</td>
+            </tr>
+            <tr>
+                <td id="container">MS Dhoni</td>
+                <td id="row">not out</td>
+                <td>91</td>
+                <td>79</td>
+                <td>8</td>
+                <td>2</td>
+                <td>115.19</td>
+            </tr>
+            <tr>
+                <td id="container">Yuvaraj singh</td>
+                <td id="row">not out</td>
+                <td>21</td>
+                <td>24</td>
+                <td>2</td>
+                <td>0</td>
+                <td>87.50</td>
+            </tr>
+        </tbody>
+    <tfoot>
+            <tr>
+                <td id="column">Extras</td>
+                <td colspan="4" align="right">15(b 1,lb 6,w 8,nb O,p,O)</td>
+            </tr>
+            <tr>
+                <td id="column">Total</td>
+                <td colspan="4" align="right">277 ( 4 Wkts,48.2 Ov )</td>
+            </tr>
+            <tr>
+                <td id="column">Did not bat</td>
+                <td id="container" colspan="5" align="left">suresh raina, Harbhajan singh, Zaheer khan, Munaf patel, S Sreeshanth</td>
+            </tfoot>     
+   </table> 
 </body>
 </html>
