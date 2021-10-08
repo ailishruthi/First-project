@@ -1,0 +1,68 @@
+body{
+    background-image: url(/assets/background-image1.png);
+    background-size: cover;
+}
+h1,p{
+    margin: 0px;
+    margin-left: 50px;
+}
+  
+table{
+   border-collapse: collapse;
+   margin: 50px;
+   text-align: left;
+   background-color: white;
+   width: 850px;
+   padding-bottom: 5px;
+   height: 300;
+   font-family: system-ui;
+
+}
+thead th{
+   background-color: orangered;
+   color:white;
+   border-bottom:1px solid lightgrey;
+   height:30px;
+   padding-left: 10px;
+   padding-right: 10px;  
+}
+
+tbody td{
+  border-bottom: 1px solid lightgrey;
+  min-width: 30px;
+   background-color: white;
+   padding:10px;
+   height: 20px;
+   padding-right: 0px;  
+}
+tfoot td{
+   padding: 8px;
+   background-color: white;
+   height: 20px;
+   
+}
+
+ #container{
+    color:blue;
+
+}
+tfoot tr {
+    border-bottom: 1px solid lightgrey;
+}
+#row{
+    color: grey;
+   
+    
+}
+#column{
+    font-weight: bold;
+}
+#action{
+    font-weight: bolder;
+    padding-right: 0px;
+
+}
+#container,#row{
+   min-width: 180px;
+}
+   
