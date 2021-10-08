@@ -1,5 +1,5 @@
 body{
-    background-image:url(/assets/background-image1.png);
+    background-image:url(/images/background-image1.png);
     background-size: cover;
 }
 h1,p{
@@ -66,3 +66,6 @@ tfoot tr {
    min-width: 180px;
 }
    
+
+</style>
+    
