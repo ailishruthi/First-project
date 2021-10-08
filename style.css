@@ -1,5 +1,5 @@
 body{
-    background-image: url(https://github.com/ailishruthi/first-project/blob/master/images/background-image1.png);
+    background-image: url(/assets/background-image1.png);
     background-size: cover;
 }
 h1,p{
