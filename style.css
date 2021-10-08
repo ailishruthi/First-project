@@ -1,7 +1,7 @@
 body{
-    background-image:url(/images/background-image1.png);
-    background-size: cover;
-}
+        background-image: url(/images/background-image1.png);
+        background-size: cover;
+    }
 h1,p{
     margin: 0px;
     margin-left: 50px;
